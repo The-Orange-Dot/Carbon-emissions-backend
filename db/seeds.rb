@@ -1,7 +1,6 @@
 puts "🌱 Seeding spices..."
 delivery_type = ["plane", "truck", "ship", "train"]
 
-
 50.times do
   user_name = "#{Faker::Superhero.prefix}-#{Faker::Food.dish.split[0]}"
   User.create(
